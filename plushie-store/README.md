@@ -71,6 +71,35 @@ yarn dev
 http://localhost:3000
 ```
 
+## 🚀 GitHub Pagesへのデプロイ
+
+このプロジェクトはGitHub Actionsを使用してGitHub Pagesに自動デプロイされます。
+
+### デプロイ手順
+
+1. **GitHubリポジトリの作成**
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/plushie-store.git
+git push -u origin main
+```
+
+2. **GitHub Pages設定**
+   - GitHubリポジトリの「Settings」→「Pages」に移動
+   - Source を「GitHub Actions」に設定
+
+3. **自動デプロイ**
+   - `main`ブランチにプッシュすると自動的にビルド・デプロイされます
+   - デプロイ完了後、`https://YOUR_USERNAME.github.io/plushie-store/` でアクセス可能
+
+### ローカルでの静的ビルドテスト
+```bash
+npm run build
+```
+
 ## 🔐 デモアカウント
 
 ### 一般ユーザー
