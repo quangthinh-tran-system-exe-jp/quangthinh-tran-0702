@@ -83,7 +83,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/plushie-store.git
+git remote add origin https://github.com/quangthinh-tran-system-exe-jp/plushie-store.git
 git push -u origin main
 ```
 
@@ -93,7 +93,7 @@ git push -u origin main
 
 3. **自動デプロイ**
    - `main`ブランチにプッシュすると自動的にビルド・デプロイされます
-   - デプロイ完了後、`https://YOUR_USERNAME.github.io/plushie-store/` でアクセス可能
+   - デプロイ完了後、`https://quangthinh-tran-system-exe-jp.github.io/plushie-store/` でアクセス可能
 
 ### ローカルでの静的ビルドテスト
 ```bash
