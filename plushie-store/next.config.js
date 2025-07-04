@@ -6,7 +6,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: process.env.NODE_ENV === 'production' ? '/quangthinh-tran-0702' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/quangthinh-tran-0702/' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/quangthinh-tran-0702' : '',
 }
 
 module.exports = nextConfig
